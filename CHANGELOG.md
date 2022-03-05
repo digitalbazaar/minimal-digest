@@ -1,4 +1,4 @@
-# isomorphic-js-lib-template Changelog
+# minimal-digest Changelog
 
 ## 1.0.0 - TBD
 

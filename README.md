@@ -1,10 +1,9 @@
-# Example Isomorphic JS Lib Template _(@digitalbazaar/isomorphic-js-lib-template)_
+# Minimal Digest _(@digitalbazaar/minimal-digest)_
 
-[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/isomorphic-js-lib-template/Node.js%20CI)](https://github.com/digitalbazaar/isomorphic-js-lib-template/actions?query=workflow%3A%22Node.js+CI%22)
-[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/isomorphic-js-lib-template)](https://codecov.io/gh/digitalbazaar/isomorphic-js-lib-template)
-[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/isomorphic-js-lib-template.svg)](https://npm.im/@digitalbazaar/isomorphic-js-lib-template)
+[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/minimal-digest/Node.js%20CI)](https://github.com/digitalbazaar/minimal-digest/actions?query=workflow%3A%22Node.js+CI%22)
+[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/minimal-digest.svg)](https://npm.im/@digitalbazaar/minimal-digest)
 
-> A template skeleton repo for (non-Bedrock) JS libraries that run in Node.js and in the browser.
+> A minimal hash/digest JS library for Node.js and the browser.
 
 ## Table of Contents
 
@@ -33,7 +32,7 @@ TBD
 To install via NPM:
 
 ```
-npm install @digitalbazaar/isomorphic-js-lib-template
+npm install @digitalbazaar/minimal-digest
 ```
 
 ### Development
@@ -41,8 +40,8 @@ npm install @digitalbazaar/isomorphic-js-lib-template
 To install locally (for development):
 
 ```
-git clone https://github.com/digitalbazaar/isomorphic-js-lib-template.git
-cd isomorphic-js-lib-template
+git clone https://github.com/digitalbazaar/minimal-digest.git
+cd minimal-digest
 npm install
 ```
 
