@@ -5,14 +5,11 @@ import chai from 'chai';
 chai.should();
 const {expect} = chai;
 
-import {Example} from '..';
+import {Digest} from '..';
 
-describe('Example', () => {
+describe('digest', () => {
   describe('constructor', () => {
     it('should exist', async () => {
-      const ex = new Example();
-
-      expect(ex).to.exist;
     });
   });
 });
