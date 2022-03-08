@@ -23,7 +23,8 @@
   "main": "lib/index.js",
   "module": "lib/main.js",
   "dependencies": {
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "jsonld": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
@@ -60,9 +61,8 @@
     ]
   },
   "browser": {
-    "buffer": false,
     "crypto": false,
-    "util": false
+    "./lib/sha256digest.js": "./lib/sha256digest-browser.js"
   },
   "engines": {
     "node": ">=12"

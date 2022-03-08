@@ -47,7 +47,16 @@ npm install
 
 ## Usage
 
-TBD
+```js
+import {digest, multibaseDigest} from '@digitalbazaar/minimal-digest';
+// or
+const {digest, multibaseDigest} = require('@digitalbazaar/minimal-digest');
+
+const data = {key: 'value'};
+// defaults to sha-256 hash, 'urdca2015' canonicalization for objects, base58btc encoding
+await multibaseDigest({data, documentLoader});
+
+```
 
 ## Contribute
 
