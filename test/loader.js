@@ -1,6 +1,6 @@
 import ed25519 from 'ed25519-signature-2020-context';
 import cred from 'credentials-context';
-import ageContext from 'age-verification-context';
+import ageContext from '@digitalbazaar/age-verification-context';
 import {JsonLdDocumentLoader} from 'jsonld-document-loader';
 
 const {contexts: credentialsContext, constants: {CREDENTIALS_CONTEXT_V1_URL}} =

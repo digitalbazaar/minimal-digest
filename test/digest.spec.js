@@ -6,7 +6,7 @@ chai.should();
 const {expect} = chai;
 
 import {documentLoader} from './loader.js';
-import {multibaseDigest} from '..';
+import {digestMultibase} from '..';
 
 const data = {
   '@context': [
@@ -29,9 +29,9 @@ const data = {
   }
 };
 
-describe('multibaseDigest', () => {
+describe('digestMultibase', () => {
   it('should create a multibase digest', async () => {
-    const digest = await multibaseDigest({data, documentLoader});
+    const digest = await digestMultibase({data, documentLoader});
     expect(digest).to
       .equal('zLWjbYZEtyJXoTJeB6SHSYkLTeek84hVtZZZUYSHHAQXuqiDWr8sJ');
   });

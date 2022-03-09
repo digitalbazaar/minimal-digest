@@ -33,7 +33,7 @@
     "@babel/plugin-transform-runtime": "^7.13.9",
     "@babel/preset-env": "^7.13.9",
     "@babel/runtime": "^7.13.9",
-    "age-verification-context": "^5.0.0",
+    "@digitalbazaar/age-verification-context": "^2.0.0",
     "babel-loader": "^8.2.2",
     "chai": "^4.3.3",
     "credentials-context": "^2.0.0",
