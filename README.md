@@ -54,7 +54,7 @@ const {multibaseDigest} = require('@digitalbazaar/minimal-digest');
 
 const data = {key: 'value'};
 // defaults to sha-256 hash, 'urdca2015' canonicalization for objects, base58btc encoding
-await multibaseDigest({data, documentLoader});
+const result = await multibaseDigest({data, documentLoader});
 
 ```
 
