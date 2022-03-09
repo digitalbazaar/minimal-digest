@@ -10,5 +10,8 @@ module.exports = {
   ignorePatterns: ['dist/'],
   rules: {
     'jsdoc/check-examples': 'off'
+  },
+  globals: {
+    globalThis: true
   }
 };
