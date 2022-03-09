@@ -48,13 +48,13 @@ npm install
 ## Usage
 
 ```js
-import {multibaseDigest} from '@digitalbazaar/minimal-digest';
+import {digestMultibase} from '@digitalbazaar/minimal-digest';
 // or
-const {multibaseDigest} = require('@digitalbazaar/minimal-digest');
+const {digestMultibase} = require('@digitalbazaar/minimal-digest');
 
 const data = {key: 'value'};
 // defaults to sha-256 hash, 'urdca2015' canonicalization for objects, base58btc encoding
-const result = await multibaseDigest({data, documentLoader});
+const result = await digestMultibase({data, documentLoader});
 
 ```
 
