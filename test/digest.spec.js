@@ -33,6 +33,6 @@ describe('multibaseDigest', () => {
   it('should create a multibase digest', async () => {
     const digest = await multibaseDigest({input, documentLoader});
     expect(digest).to
-      .equal('z5RQhSpa6prhnDYPZGysopJrBMN7ThAncHrFutqyX45LWEC94w2p');
+      .equal('zLWjbYZEtyJXoTJeB6SHSYkLTeek84hVtZZZUYSHHAQXuqiDWr8sJ');
   });
 });
