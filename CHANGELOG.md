@@ -1,6 +1,6 @@
 # minimal-digest Changelog
 
-## 1.0.0 - TBD
+## 1.0.0 - 2022-03-10
 
 ### Added
 - Initial commit.
