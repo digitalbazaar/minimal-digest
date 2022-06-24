@@ -5,8 +5,8 @@ import chai from 'chai';
 chai.should();
 const {expect} = chai;
 
+import {digestMultibase} from '../lib/index.js';
 import {documentLoader} from './loader.js';
-import {digestMultibase} from '..';
 
 const data = {
   '@context': [
