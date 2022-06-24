@@ -25,7 +25,7 @@ TBD
 
 ## Install
 
-- Node.js 12+ is required.
+- Browsers and Node.js 14+ are supported.
 
 ### NPM
 
@@ -49,13 +49,11 @@ npm install
 
 ```js
 import {digestMultibase} from '@digitalbazaar/minimal-digest';
-// or
-const {digestMultibase} = require('@digitalbazaar/minimal-digest');
 
 const data = {key: 'value'};
-// defaults to sha-256 hash, 'urdca2015' canonicalization for objects, base58btc encoding
+// defaults to sha-256 hash, 'urdca2015' canonicalization for objects,
+// base58btc encoding
 const result = await digestMultibase({data, documentLoader});
-
 ```
 
 ## Contribute
