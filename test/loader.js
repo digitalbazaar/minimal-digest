@@ -1,3 +1,6 @@
+/*!
+ * Copyright (c) 2021-2022 Digital Bazaar, Inc. All rights reserved.
+ */
 import ageContext from '@digitalbazaar/age-verification-context';
 import cred from 'credentials-context';
 import ed25519 from 'ed25519-signature-2020-context';
@@ -17,4 +20,3 @@ staticLoader.addStatic(CREDENTIALS_CONTEXT_V1_URL,
   credentialsContext.get(CREDENTIALS_CONTEXT_V1_URL));
 
 export const documentLoader = staticLoader.documentLoader.bind(staticLoader);
-
