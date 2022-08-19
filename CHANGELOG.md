@@ -1,6 +1,6 @@
 # minimal-digest Changelog
 
-## 2.0.0 - 2022-xx-xx
+## 2.0.0 - 2022-08-19
 
 ### Changed
 - **BREAKING**: Use `jsonld@7` to use `safe` mode when canonizing
