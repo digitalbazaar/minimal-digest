@@ -35,4 +35,43 @@ describe('digestMultibase', () => {
     expect(digest).to
       .equal('zLWjbYZEtyJXoTJeB6SHSYkLTeek84hVtZZZUYSHHAQXuqiDWr8sJ');
   });
+  it('should fail when data has undefined terms', async () => {
+    // clone data before modifying
+    const copy = JSON.parse(JSON.stringify(data));
+    copy.undefinedTerm = 'foo';
+    let error;
+    try {
+      await digestMultibase({data: copy, documentLoader});
+    } catch(e) {
+      error = e;
+    }
+    expect(error).to.exist;
+    error.name.should.equal('jsonld.ValidationError');
+  });
+  it('should fail when data has a relative URL', async () => {
+    // clone data before modifying
+    const copy = JSON.parse(JSON.stringify(data));
+    copy.issuer = '#relative';
+    let error;
+    try {
+      await digestMultibase({data: copy, documentLoader});
+    } catch(e) {
+      error = e;
+    }
+    expect(error).to.exist;
+    error.name.should.equal('jsonld.ValidationError');
+  });
+  it('should fail when data has a relative type', async () => {
+    // clone data before modifying
+    const copy = JSON.parse(JSON.stringify(data));
+    copy.type.push('Relative');
+    let error;
+    try {
+      await digestMultibase({data: copy, documentLoader});
+    } catch(e) {
+      error = e;
+    }
+    expect(error).to.exist;
+    error.name.should.equal('jsonld.ValidationError');
+  });
 });
