@@ -1,5 +1,11 @@
 # minimal-digest Changelog
 
+## 2.1.0 - 2022-12-dd
+
+### Changed
+- Update dependencies:
+  - `jsonld@8`.
+
 ## 2.0.0 - 2022-08-19
 
 ### Changed
