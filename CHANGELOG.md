@@ -1,6 +1,6 @@
 # minimal-digest Changelog
 
-## 2.1.0 - 2022-12-dd
+## 2.1.0 - 2022-12-19
 
 ### Changed
 - Update dependencies:
