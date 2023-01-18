@@ -1,5 +1,10 @@
 # minimal-digest Changelog
 
+## 2.1.1 - 2023-01-dd
+
+### Fixed
+- Fix `files` entry in `package.json`.
+
 ## 2.1.0 - 2022-12-19
 
 ### Changed

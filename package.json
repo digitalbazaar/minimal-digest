@@ -23,7 +23,7 @@
     "./lib/sha256digest.js": "./lib/sha256digest-browser.js"
   },
   "files": [
-    "lib/**/.*js"
+    "lib/*"
   ],
   "dependencies": {
     "base58-universal": "^2.0.0",
