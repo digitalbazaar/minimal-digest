@@ -3,6 +3,7 @@
 ## 2.2.0 - 2026-09-xx
 
 ### Changed
+- Update dev dependencies.
 - **NOTE**: Update supported platforms.
   - Test on Node.js >=22.
   - Update `engines.node` to `>=22`.
