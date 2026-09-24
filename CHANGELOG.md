@@ -1,5 +1,13 @@
 # minimal-digest Changelog
 
+## 2.2.0 - 2026-09-xx
+
+### Changed
+- **NOTE**: Update supported platforms.
+  - Test on Node.js >=22.
+  - Update `engines.node` to `>=22`.
+  - Update README requirements section.
+
 ## 2.1.1 - 2023-01-18
 
 ### Fixed
