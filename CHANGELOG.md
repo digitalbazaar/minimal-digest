@@ -3,6 +3,8 @@
 ## 2.2.0 - 2026-09-xx
 
 ### Changed
+- Update dependencies.
+  - `jsonld@9`
 - Update dev dependencies.
 - **NOTE**: Update supported platforms.
   - Test on Node.js >=22.
