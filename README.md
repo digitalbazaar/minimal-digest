@@ -1,8 +1,5 @@
 # Minimal Digest _(@digitalbazaar/minimal-digest)_
 
-[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/minimal-digest/Node.js%20CI)](https://github.com/digitalbazaar/minimal-digest/actions?query=workflow%3A%22Node.js+CI%22)
-[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/minimal-digest.svg)](https://npm.im/@digitalbazaar/minimal-digest)
-
 > A minimal hash/digest JS library for Node.js and the browser.
 
 ## Table of Contents
@@ -34,7 +31,9 @@ with this software.
 
 To install via NPM:
 
-```
+- https://www.npmjs.com/package/@digitalbazaar/minimal-digest
+
+```sh
 npm install @digitalbazaar/minimal-digest
 ```
 
@@ -42,7 +41,7 @@ npm install @digitalbazaar/minimal-digest
 
 To install locally (for development):
 
-```
+```sh
 git clone https://github.com/digitalbazaar/minimal-digest.git
 cd minimal-digest
 npm install
