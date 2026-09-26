@@ -1,6 +1,6 @@
 # minimal-digest Changelog
 
-## 2.2.0 - 2026-09-xx
+## 2.2.0 - 2026-09-26
 
 ### Changed
 - Update dependencies.
